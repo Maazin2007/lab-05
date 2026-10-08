@@ -182,7 +182,7 @@ fun CityListScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(16.dp),
-                horizontalArrangement = Arrangement.Start // or Arrangement.End
+                horizontalArrangement = Arrangement.End
             ) {
                 Button(
                     colors = ButtonDefaults.buttonColors(
